@@ -36,25 +36,6 @@ namespace ReadText
                 Console.WriteLine(err.Message);
             }
 
-            //Console.WriteLine(text);
-
-            string constring = "User Id = c##zipcensus; password = Formula1;" +
-                "Data Source=localhost:1521/orcl.home; Pooling=false;";
-
-
-            OracleConnection con = new OracleConnection(constring);
-            con.ConnectionString = constring;
-            con.Open();
-
-            OracleCommand cmd = con.CreateCommand();
-            cmd.CommandText = "select productname from product where rownum < 25";
-
-            //Execute the command and use datareader to display the data
-            OracleDataReader reader = cmd.ExecuteReader();
-            while (reader.Read())
-            {
-                Console.WriteLine("Product Name: " + reader.GetString(1));
-            }
             Console.ReadLine();
 
         }
