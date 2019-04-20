@@ -1,0 +1,8 @@
+E:\C# Projects\ReadText\bin\Debug\ReadText.exe.config
+E:\C# Projects\ReadText\bin\Debug\ReadText.exe
+E:\C# Projects\ReadText\bin\Debug\ReadText.pdb
+E:\C# Projects\ReadText\obj\Debug\ReadText.csprojAssemblyReference.cache
+E:\C# Projects\ReadText\obj\Debug\ReadText.csproj.CoreCompileInputs.cache
+E:\C# Projects\ReadText\obj\Debug\ReadText.exe
+E:\C# Projects\ReadText\obj\Debug\ReadText.pdb
+E:\C# Projects\ReadText\obj\Debug\ReadText.csproj.CopyComplete
